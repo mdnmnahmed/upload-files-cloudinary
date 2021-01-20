@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Uploads</title>
+</head>
+
+<body>
+    <div align="center">
+        <h3>Upload Files</h3>
+        <form onClick="uploadFiles(e)">
+            Select Files : <input type="file" multiple name="file" />
+            <br />
+            <br />
+            <button type="submit">Upload</button>
+        </form>
+        <button type="submit" onClick="uploadFiles()">Upload</button>
+    </div>
+</body>
+<script>
+    const uploadFiles = () => {
+        // e.preventDefalut();
+        console.log('mmm');
+        alert('nnn');
+    }
+</script>
+
+</html>
